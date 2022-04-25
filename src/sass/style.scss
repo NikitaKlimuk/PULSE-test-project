@@ -1,5 +1,13 @@
 @import 'base/variables';
 * {
     font-family: 'Museo sans Cyrl', sans-serif;
-    
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'block/promo';
+@import 'block/header.scss';
+@import 'block/buttons';
+@import 'block/advantages';
+@import 'base/media'
