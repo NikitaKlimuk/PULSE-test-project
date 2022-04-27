@@ -44,6 +44,17 @@
             font-size: 25px;
         }
     }
+    .consultation {
+        min-height: 500px;
+        padding: 50px 0 50px 0;
+        &__desc {
+            font-size: 18px;
+        }
+    }
+    .title_left {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 @media (max-width: 767px) {
     .header__official {
@@ -67,6 +78,16 @@
         &__title {
             margin-top: 20px;
         }
+    }
+    .consultation {
+        min-height: 400px;
+        &__desc {
+            font-size: 18px;
+        }
+    }
+    .title_left {
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 @media (max-width: 576px) {
@@ -121,5 +142,18 @@
         &__item {
             width: 300px;
         }
+    }
+    .consultation {
+        &__desc {
+            width: 300px;
+            font-size: 15px;
+        }
+    }
+    .title_left {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .feed-form {
+        width: 290px;
     }
 }
