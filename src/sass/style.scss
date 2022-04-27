@@ -6,8 +6,13 @@
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'block/promo';
-@import 'block/header.scss';
-@import 'block/buttons';
-@import 'block/advantages';
-@import 'base/media'
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/titles';
+@import 'blocks/forms';
+@import 'base/media';
+
+ 
