@@ -1,0 +1,13 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    background: url(../img/bg/bg2.jpg);
+    &__desc {
+        margin-top: 8px;
+        width: 426px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
