@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" clas="header__logo">
@@ -66,7 +67,8 @@
                    <div class="advantages__subtitle">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                </div>
                <div class="advantages__item">
-                   <img src="icons/heart.png" alt="heart" class="advanteges__icon">
+                   <img src="icons/heart.png" alt="heart" 
+                   class="advantages__icon advantages__icon_animated">
                    <div class="advantages__title">Заботимся о здоровье</div>
                    <div class="advantages__subtitle">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                </div>
@@ -396,7 +398,7 @@
         <div class="container">
             <h2 class="title">ОТЗЫВЫ КЛИЕНТОВ</h2>
             <div class="reviews__wrapper">
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow">
                     <img src="img/review_1.png" alt="review1" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__title">Ирина Иванченко</div>
@@ -407,7 +409,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow">
                     <img src="img/review_2.png" alt="review2" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__title">Иван Сёмочкин</div>
@@ -418,7 +420,7 @@
                         С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                     </div>
                 </div>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow">
                     <img src="img/review_3.png" alt="review3" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__title">Юлия Дашкина</div>
@@ -476,10 +478,15 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="icons/circle-chevron-up-solid.svg" alt="chevron">
+    </a>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
