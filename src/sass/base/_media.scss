@@ -246,7 +246,18 @@
             }
         }
     }
+    .modal {
+        width: 260px;
+        padding: 20px;
+        &__close {
+            right: -28px;
+        }
+    }
+    .feed-form {
+        width: 217px;
+    }
 }
+
 @media (max-width: 320px) {
     .footer {
         height: 450px;
